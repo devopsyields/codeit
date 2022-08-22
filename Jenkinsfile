@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('echo') {
       steps {
-        sh 'echo " Hello Blue Ocean"'
+        sh 'echo " Hello Blue Ocean" > echo.txt'
       }
     }
 
